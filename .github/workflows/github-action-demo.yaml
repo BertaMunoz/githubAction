@@ -1,5 +1,5 @@
 name: Github Actions
-on: [push]
+on: [ push ]
 jobs:
   TestApplication:
     runs-on: ubuntu-latest
@@ -13,5 +13,5 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-     - name: Faire les tests
-         run: mvn test
+      - name: Faire les tests
+        run: mvn test
